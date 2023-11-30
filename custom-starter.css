@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+   background-color: beige;
+} 
+
+main {
+    flex: 1 0  auto;
+}
+ .hero-text {
+    text-align: center;
+    font-size: 8vw;
+    opacity: .5;
+    letter-spacing: 2px;
+    margin: auto;
+    color: skyblue;
+ }
+ .card-body {
+    background-color: rgb(218, 199, 177);
+    
+ }
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+
+}
+.singleCol {
+    max-width: 750px;
+
+}
+.btn-outline-dark{
+ background-color: rgb(238, 88, 88);
+
+}
+.btn-outline-dark:hover {
+ background-color:rgb( white, green, rgb(123, 123, 197));
+
+}
+
+
+footer {
+    background: rgb(212, 185, 185);
+    margin-top: 2px;
+    padding: 2px 2px;
+}
+
+footer a  {
+    background-color: rgb(212, 185, 185);
+}
+
+footer a:hover {
+    color: white;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay{
+        min-height : 30vh;
+    }
+}
+
+
+
+
+
